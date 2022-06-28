@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="demo1">change of text</h1>
+<button type="button">click me</button>
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+<p id="demo2">change of font size</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">click me</button>
+<p id="demo3"></p>
+<h3 id="demo4">a text</h3>
+<button type="button" onclick="myfunction()">click me</button>
+<button type="button" onclick="document.write(4+8)" style="color:pink; background-color:aqua; border-radius:25px">click me</button>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<button type="button" onclick="document.getElementById('demo7').innerHTML=Date()">the time is?</button>
+<p id="demo7"></p>
+<p id="cars"></p>
+<p id="cars1"></p>
+<button class="btn btn-outline-success" id="addcar">add car</button>
+<button class="btn btn-outline-success" id="addcars"> add new cars</button>
+<button id="demo8" type="button">random number</button>
+<p id="demo8"></p>
+<button type="button" class="btn" id="demo9">try</button>
+<script src="index.js"></script>
+</body>
+</html>
